@@ -1,0 +1,71 @@
+<resources>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">login</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="go_back">Go back</string>
+    <string name="name">Name</string>
+    <string name="name2">Name</string>
+    <string name="surname">Surname</string>
+    <string name="nickname">Nickname</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_up">sign up</string>
+    <string name="log_in">log in</string>
+    <string name="name3">Name</string>
+    <string name="name4">Name</string>
+    <string name="wrong_nickname_or_pass">*Wrong nickname or pass.</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="nickname3">Nickname</string>
+    <string name="password3">Password</string>
+    <string name="sda">$</string>
+    <string name="create_account">Create Account</string>
+    <string name="name_3_20_characters">Name (3–20 characters)</string>
+    <string name="surname_3_20_characters">Surname (3–20 characters)</string>
+    <string name="username_3_20_characters">Username (3–20 characters)</string>
+    <string name="email_address">Email Address</string>
+    <string name="password_6_20_characters">Password (6–20 characters)</string>
+    <string name="sign_up2">SIGN UP</string>
+    <string name="password_3_20_characters">Password (3–20 characters)</string>
+    <string name="username_3_20_characters2">Username (3–20 characters)</string>
+    <string name="surname_3_20_characters3">Surname (3–20 characters)</string>
+    <string name="name_3_20_characters4">Name (3–20 characters)</string>
+    <string name="create_account4">Create Account</string>
+    <string name="todo">TODO</string>
+    <string name="create_account22">Create Account</string>
+    <string name="create_account_button32">Create account button</string>
+    <string name="go_back3">Go back</string>
+    <string name="button">Button</string>
+    <string name="go_back43">Go back</string>
+    <string name="namez">Name:</string>
+    <string name="surnamexzc">Surname:</string>
+    <string name="textviewxvc">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="passwordxzc">Password:</string>
+    <string name="balance">Balance:</string>
+    <string name="nicknamexcbv">Nickname:</string>
+    <string name="sendbvbcv">Send</string>
+    <string name="send_tobvc">Send to:</string>
+    <string name="textbxvc">text</string>
+    <string name="open_fileasd">Open file</string>
+    <string name="logoutzd">logout</string>
+    <string name="login">Login</string>
+    <string name="nicknamezx">Nickname</string>
+    <string name="passwordzcx">Password</string>
+    <string name="incorrect_username_or_password">Incorrect username or password!</string>
+    <string name="loginzcx">Login</string>
+    <string name="sign_upvxc">Sign up</string>
+    <string name="todozcx">TODO</string>
+    <string name="tdcx">td</string>
+</resources>

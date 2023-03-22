@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".signup">
+
+    <ImageButton
+        android:id="@+id/Gobackbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="@null"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/go_back3"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/Nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="32dp"
+        android:hint="@string/name_3_20_characters4"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/error1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_below="@+id/Nametext"
+        android:layout_alignStart="@+id/Nametext"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/Surnametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/error1"
+        android:layout_marginTop="16dp"
+        android:hint="@string/surname_3_20_characters3"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/error2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_below="@+id/Surnametext"
+        android:layout_alignStart="@+id/Surnametext"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/Nicknametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/error2"
+        android:layout_marginTop="16dp"
+        android:hint="@string/username_3_20_characters2"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/error3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_below="@+id/Nicknametext"
+        android:layout_alignStart="@+id/Nicknametext"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/Passtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/error3"
+        android:layout_marginTop="16dp"
+        android:hint="@string/password_3_20_characters"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/error4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_below="@+id/Passtext"
+        android:layout_alignStart="@+id/Passtext"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/Createaccountbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/error4"
+        android:layout_marginTop="32dp"
+        android:text="@string/sign_up2"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@drawable/button_background"/>
+
+</RelativeLayout>
